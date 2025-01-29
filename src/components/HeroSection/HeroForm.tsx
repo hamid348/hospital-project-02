@@ -3,16 +3,16 @@ import TimePicker from "./TimePicker";
 
 function HeroForm() {
   return (
-    <div>
-      <form className="max-w-sm mx-auto py-8">
-        <div className="flex w-1/2 mx-auto justify-between bg-gray-200 p-2 rounded-full">
+    <div >
+      <form className="flex flex-col gap-4 max-w-sm mx-auto py-8 px-4">
+        <div className="flex border-2 border-red-600 w-3/4 mx-auto justify-between bg-gray-200 p-2 rounded-full">
           <button className="bg-blue-600 text-white px-2 rounded-full">Ziekenhuis</button>
           <button>Algemeen</button>
         </div>
         {/* form part */}
 
         <div className="mb-5">
-          <h1>Bereken uw prijs</h1>
+          <h1 className="text-xl font-bold">Bereken uw prijs</h1>
           <p>Boek van tevoren of contact voor elke vraag.</p>
           <label
             htmlFor="email"
