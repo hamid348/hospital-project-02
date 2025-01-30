@@ -16,7 +16,7 @@ function HowItWork() {
             Volg deze eenvoudige stappen om uw taxi of busje in slechts enkele te boeken notulen.
             </p>
         </div>
-        <div className='flex flex-col items-center gap-4 p-4'>
+        <div className='flex flex-col md:flex-row items-center gap-4 p-4'>
        <WorkCard
        step='1'
        title='Kies uw bestemming'

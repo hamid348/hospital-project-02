@@ -5,7 +5,7 @@ function HeroForm() {
   return (
     <div >
       <form className="flex flex-col gap-4 max-w-sm mx-auto py-8 px-4">
-        <div className="flex border-2 border-red-600 w-3/4 mx-auto justify-between bg-gray-200 p-2 rounded-full">
+        <div className="flex  w-3/4 mx-auto justify-between bg-gray-200 p-2 rounded-full">
           <button className="bg-blue-600 text-white px-2 rounded-full">Ziekenhuis</button>
           <button>Algemeen</button>
         </div>

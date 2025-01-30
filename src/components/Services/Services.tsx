@@ -5,7 +5,7 @@ import hospital from '@/img/hospital.jpg'
 
 function Services() {
   return (
-    <div className='grid grid-cols-1 md:grid-cols-3 gap-4 border-2 border-red-600'>
+    <div className='grid grid-cols-1  md:grid-cols-3 gap-4 '>
      <ServiceCards
      pic = {hospital}
         title = 'Hospital'
