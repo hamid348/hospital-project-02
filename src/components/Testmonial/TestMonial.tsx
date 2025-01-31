@@ -9,7 +9,7 @@ function TestMonial() {
   return (
     <div className="flex flex-col  justify-center items-center gap-4 bg-white p-2 rounded-lg">
       <h1 className="md:text-2xl">Wat onze klanten zeggen</h1>
-      <div className="flex md:flex-row md:py-8">
+      <div className="flex flex-col md:flex-row md:py-8">
         <TestMonialCompo 
           person={person1} 
           name="John" 

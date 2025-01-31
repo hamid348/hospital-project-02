@@ -7,7 +7,7 @@ function RegisterDriver() {
     <div 
     className='flex flex-col md:flex-row justify-around md:items-center border-2 m-4 rounded-lg'
     >
-        <div className='flex flex-col w-2/3 gap-4 p-4'>
+        <div className='flex flex-col w-2/3 lg:flex-1 gap-4 p-4'>
 
             <form action="" className='flex flex-col   gap-4'>
                 <h1 className='font-bold md:text-2xl'>Registreer je als bestuurder</h1>
@@ -24,7 +24,7 @@ function RegisterDriver() {
             </form>
 
         </div>
-        <div className='p-2'>
+        <div className='p-2 flex-1'>
             <Image src={image} alt="driver" className='shadow rounded-lg' width={320} height={320}/>
         </div>
     </div>

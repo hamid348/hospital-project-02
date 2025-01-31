@@ -4,21 +4,23 @@ import Services from '@/components/Services/Services';
 import HowItWork from '@/components/HowItWork/HowItWork';
 import RegisterDriver from '@/components/RegisterDriver/RegisterDriver';
 import ServiceWork from '@/components/Services/ServiceWork';
-import TestMonial from '@/components/Testmonial/TestMonial';
+// import TestMonial from '@/components/Testmonial/TestMonial';
 import Footer from '@/components/Footer/Footer';
+import { AnimatedTestimonialsDemo } from '@/components/newtestmonial/AnimatedTestmonialsDemo';
 
 export default function Home() {
   return (
    <div>
         <NavBar/>
-        <div className='container'>
+        <div className=''>
           
         <HeroSection/>
         <Services/>
         <HowItWork/>
         <RegisterDriver/>
         <ServiceWork/>
-        <TestMonial/>
+        {/* <TestMonial/> */}
+        <AnimatedTestimonialsDemo/>
 
         </div>
         <Footer/>
