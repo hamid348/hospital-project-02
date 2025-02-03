@@ -40,3 +40,6 @@ To deploy this project run
 
 ***Tailwind CSS:*** A utility-first CSS framework for styling
 
+## Preview
+- [Live](https://hospital-project-02.vercel.app/)
+
