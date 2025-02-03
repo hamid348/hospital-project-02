@@ -8,7 +8,7 @@ function NavBar() {
     const [isOpen, setIsOpen] = useState(false);
   return (
     <div>
-    <div className=' flex justify-around py-4 items-center border-b-2 '>
+    <div className=' container mx-auto flex justify-around py-4 items-center border-b-2 '>
         <div className=''>
             <Image src={logo} alt="logo" width={100}  height={100}/>
         </div>

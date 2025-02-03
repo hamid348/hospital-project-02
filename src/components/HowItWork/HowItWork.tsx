@@ -1,10 +1,12 @@
 import React from 'react'
 import WorkCard from './WorkCard'
 
+
 function HowItWork() {
   
   return (
     <div>
+    <div className='container mx-auto'>
         <div className='flex flex-col items-center gap-4 p-4'>
             <p className='font-bold'>
             3 eenvoudige stappen
@@ -16,7 +18,7 @@ function HowItWork() {
             Volg deze eenvoudige stappen om uw taxi of busje in slechts enkele te boeken notulen.
             </p>
         </div>
-        <div className='flex flex-col md:flex-row items-center gap-4 p-4'>
+        <div className='flex flex-col md:flex-row items-center md:justify-center  gap-4 p-4'>
        <WorkCard
        step='1'
        title='Kies uw bestemming'
@@ -37,6 +39,7 @@ function HowItWork() {
        />
        
         </div>
+    </div>
     </div>
   )
 }

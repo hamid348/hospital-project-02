@@ -4,8 +4,9 @@ import image from '@/img/contact.webp'
 
 function RegisterDriver() {
   return (
+    <div>
     <div 
-    className='flex flex-col md:flex-row justify-around md:items-center border-2 m-4 rounded-lg'
+    className='container mx-auto flex flex-col md:flex-row justify-around md:items-center border-2 m-4 rounded-lg'
     >
         <div className='flex flex-col w-2/3 lg:flex-1 gap-4 p-4'>
 
@@ -27,6 +28,7 @@ function RegisterDriver() {
         <div className='p-2 flex-1'>
             <Image src={image} alt="driver" className='shadow rounded-lg' width={320} height={320}/>
         </div>
+    </div>
     </div>
   )
 }

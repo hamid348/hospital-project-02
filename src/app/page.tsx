@@ -10,11 +10,11 @@ import { AnimatedTestimonialsDemo } from '@/components/newtestmonial/AnimatedTes
 
 export default function Home() {
   return (
-   <div>
+   <>
         <NavBar/>
-        <div className=''>
-          
         <HeroSection/>
+
+        
         <Services/>
         <HowItWork/>
         <RegisterDriver/>
@@ -22,8 +22,8 @@ export default function Home() {
         {/* <TestMonial/> */}
         <AnimatedTestimonialsDemo/>
 
-        </div>
+        
         <Footer/>
-   </div>
+   </>
   );
 }

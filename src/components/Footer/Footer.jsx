@@ -6,6 +6,7 @@ import logo from "@/img/logo.webp"
 function Footer() {
   return (
     <div className=''>
+        <div className='container mx-auto'>
         
 
         <footer className="flex flex-col md:flex-row gap-4 py-4 justify-around px-2 bg-white dark:bg-gray-900">
@@ -75,6 +76,7 @@ function Footer() {
         
         <div className='text-center md:py-8'>
         © {new Date().getFullYear()} Zorgvervoer Regio Rotterdam. All rights reserved.
+        </div>
         </div>
 
     </div>
