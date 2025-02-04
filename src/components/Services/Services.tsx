@@ -13,8 +13,8 @@ function Services() {
 
 
 
-   <div className="h-full min-h-screen w-full bg-gray-800 pt-12 p-4">
-  <div className="container mx-auto grid gap-14 md:grid-cols-3 md:gap-5">
+   <div className="h-full min-h-screen w-full bg-blue-400 pt-12 p-4">
+  <div className="container mx-auto grid gap-16 md:grid-cols-3 md:gap-5">
     <ServiceCompo
     color='bg-yellow-500'
     icon = {FaTaxi}

@@ -27,7 +27,7 @@ function NavBar() {
             />        
         </div>
         <div className='  w-24 h-10 text-center hidden md:block'>
-              <button className=' bg-blue-700 text-white rounded-lg px-2 py-1 '>
+              <button className=' bg-blue-400 text-white rounded-lg px-2 py-1 '>
                 Click Me
               </button>
 

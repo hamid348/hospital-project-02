@@ -7,6 +7,7 @@ import ServiceWork from '@/components/Services/ServiceWork';
 // import TestMonial from '@/components/Testmonial/TestMonial';
 import Footer from '@/components/Footer/Footer';
 import { AnimatedTestimonialsDemo } from '@/components/newtestmonial/AnimatedTestmonialsDemo';
+import FqaSection from '@/components/FQAs/FqaSection';
 
 export default function Home() {
   return (
@@ -22,7 +23,7 @@ export default function Home() {
         {/* <TestMonial/> */}
         <AnimatedTestimonialsDemo/>
 
-        
+        <FqaSection/>
         <Footer/>
    </>
   );
