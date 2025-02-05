@@ -55,7 +55,7 @@ function AboutSection() {
             />
         </div>
         <div className="flex justify-center mt-12">
-            <button className="bg-blue-400 text-white text-lg font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-green-800 hover:shadow-2xl transition duration-300">Book Now</button>
+            <button className="bg-blue-400 text-white text-lg font-semibold py-3 px-8 rounded-full shadow-lg hover:bg-blue-600 hover:shadow-2xl transition duration-300">Book Now</button>
         </div>
       </div>
 
