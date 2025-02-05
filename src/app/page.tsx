@@ -8,6 +8,7 @@ import ServiceWork from '@/components/Services/ServiceWork';
 import Footer from '@/components/Footer/Footer';
 import { AnimatedTestimonialsDemo } from '@/components/newtestmonial/AnimatedTestmonialsDemo';
 import FqaSection from '@/components/FQAs/FqaSection';
+import AboutSection from '@/components/AboutSection/AboutSection';
 
 export default function Home() {
   return (
@@ -18,6 +19,7 @@ export default function Home() {
         
         <Services/>
         <HowItWork/>
+        <AboutSection/>
         <RegisterDriver/>
         <ServiceWork/>
         {/* <TestMonial/> */}
