@@ -1,51 +1,76 @@
 'use client'
-import React, {useState} from 'react'
+import React, { useState } from 'react'
 import { RxHamburgerMenu } from "react-icons/rx";
+import { IoMdClose } from "react-icons/io";
 import Image from 'next/image';
 import logo from '@/img/logo.webp'
 
 function NavBar() {
-    const [isOpen, setIsOpen] = useState(false);
+  const [isOpen, setIsOpen] = useState(false);
+
   return (
-    <div>
-    <div className=' container mx-auto flex justify-around py-4 items-center border-b-2 '>
-        <div className=''>
-            <Image src={logo} alt="logo" width={100}  height={100}/>
+    <nav className="fixed top-0 left-0 right-0 z-50 bg-white shadow-md">
+      <div className='container mx-auto flex justify-between items-center px-4 py-2'>
+        {/* Logo - Increased size */}
+        <div className='flex-shrink-0'>
+          <Image 
+            src={logo} 
+            alt="logo" 
+            width={120} 
+            height={120} 
+            className="h-auto w-auto object-contain max-h-[70px] md:max-h-[90px]" 
+            priority
+          />
         </div>
-        <div className='hidden md:block '>
-            <ul className='flex gap-6 justify-around w-1/2'>
-              <li>Home</li>
-              <li>About</li>
-              <li>Services</li>
-            </ul>
+
+        {/* Desktop Menu */}
+        <div className='hidden md:flex flex-1 justify-center items-center'>
+          <ul className='flex space-x-8 items-center'>
+            <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>Home</li>
+            <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>About</li>
+            <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>Services</li>
+          </ul>
         </div>
-        <div className=' h-8 w-8  md:hidden '
-        
+
+        {/* Button - Separate from menu */}
+        <div className='hidden md:block'>
+          <button className='bg-blue-500 text-white rounded-lg px-6 py-2.5 hover:bg-blue-600 transition-colors text-lg'>
+            Click Me
+          </button>
+        </div>
+
+        {/* Mobile Menu Button */}
+        <button 
+          className='md:hidden p-2'
+          onClick={() => setIsOpen(!isOpen)}
+          aria-label="Toggle menu"
         >
-           <RxHamburgerMenu className='w-full h-full md:hidden '
-           onClick={() => setIsOpen(!isOpen)}
-            />        
-        </div>
-        <div className='  w-24 h-10 text-center hidden md:block'>
-              <button className=' bg-blue-400 text-white rounded-lg px-2 py-1 '>
-                Click Me
-              </button>
+          {isOpen ? (
+            <IoMdClose className='w-7 h-7' />
+          ) : (
+            <RxHamburgerMenu className='w-7 h-7' />
+          )}
+        </button>
+      </div>
 
-
+      {/* Mobile Menu */}
+      {isOpen && (
+        <div className='md:hidden absolute top-full left-0 right-0 bg-white shadow-md'>
+          <div className='container mx-auto px-4 py-3'>
+            <ul className='space-y-4 text-center'>
+              <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>Home</li>
+              <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>About</li>
+              <li className='hover:text-blue-500 transition-colors cursor-pointer text-lg'>Services</li>
+              <li className='pt-4'>
+                <button className='w-full bg-blue-500 text-white rounded-lg px-6 py-2.5 hover:bg-blue-600 transition-colors text-lg'>
+                  Click Me
+                </button>
+              </li>
+            </ul>
+          </div>
         </div>
-       
-        
-    </div>
-    <div>
-    {
-      isOpen && (
-        <div className='absolute mx-auto top-4'>
-          Hamid
-        </div>
-      )
-    }
-  </div>
-  </div>
+      )}
+    </nav>
   )
 }
 
