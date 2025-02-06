@@ -12,7 +12,7 @@ import AboutSection from '@/components/AboutSection/AboutSection';
 
 export default function Home() {
   return (
-   <>
+   <div>
         <NavBar/>
         <HeroSection/>
 
@@ -28,6 +28,6 @@ export default function Home() {
         <FqaSection/>
         
         <Footer/>
-   </>
+   </div>
   );
 }

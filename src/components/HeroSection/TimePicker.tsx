@@ -6,7 +6,7 @@ function TimePicker() {
 
 
   return (
-    <div>
+    <div className="bg-gray-200">
         
 <button type="button" data-modal-target="timepicker-modal" data-modal-toggle="timepicker-modal" className="text-gray-900 bg-white hover:bg-gray-100 border border-gray-200 focus:ring-4 focus:outline-none focus:ring-gray-100 font-medium rounded-lg text-sm px-5 py-2.5 text-center inline-flex items-center dark:focus:ring-gray-600 dark:bg-gray-800 dark:border-gray-700 dark:text-white dark:hover:bg-gray-700">
 <svg className="w4 h-4 me-1" aria-hidden="true" xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" viewBox="0 0 24 24">
@@ -19,7 +19,7 @@ Schedule appointment
 <div id="timepicker-modal" tabIndex={-1} aria-hidden="true" className="hidden overflow-y-auto overflow-x-hidden fixed top-0 right-0 left-0 z-50 justify-center items-center w-full md:inset-0 h-[calc(100%-1rem)] max-h-full">
     <div className="relative p-4 w-full max-w-[23rem] max-h-full">
        
-        <div className="relative bg-white rounded-lg shadow-sm dark:bg-gray-800">
+        <div className="relative bg-gray-200 rounded-lg shadow-sm dark:bg-gray-800">
           
             <div className="flex items-center justify-between p-4 border-b rounded-t dark:border-gray-700 border-gray-200">
                 <h3 className="text-lg font-semibold text-gray-900 dark:text-white">

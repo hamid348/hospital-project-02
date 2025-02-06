@@ -7,9 +7,12 @@ module.exports = {
   darkMode: "class",
   theme: {
     // rest of the code
+  
     extend: {
       animation: {
         scroll:
+
+
           "scroll var(--animation-duration, 40s) var(--animation-direction, forwards) linear infinite",
       },
       keyframes: {

@@ -7,7 +7,7 @@ import person3 from "@/img/65.jpg";
 
 function TestMonial() {
   return (
-    <div className="flex flex-col  justify-center items-center gap-4 bg-white p-2 rounded-lg">
+    <div className="flex flex-col  justify-center items-center gap-4 bg-black p-2 rounded-lg">
       <h1 className="md:text-2xl">Wat onze klanten zeggen</h1>
       <div className="flex flex-col md:flex-row md:py-8">
         <TestMonialCompo 

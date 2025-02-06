@@ -10,7 +10,7 @@ interface WorkCardProps {
 
 function WorkCard({ step, title, description, buttonlink, color }: WorkCardProps) {
   return (
-    <div className="max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 transition-all hover:shadow-lg">
+    <div className="max-w-sm p-6 bg-gray-200 border border-gray-200 rounded-lg shadow-sm dark:bg-gray-800 dark:border-gray-700 transition-all hover:shadow-lg">
       {/* Step Section */}
       <div
         className={`text-2xl font-bold ${color} w-12 h-12 flex items-center justify-center rounded-full text-white`}

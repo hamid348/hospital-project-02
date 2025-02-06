@@ -11,35 +11,35 @@ function RegisterDriver() {
         <div className="flex flex-col w-full md:w-2/3 lg:w-1/2 gap-4 p-4">
           <form className="flex flex-col gap-4">
             <h1 className="font-bold text-2xl">Registreer je als bestuurder</h1>
-            <div className="flex flex-col w-full gap-2">
+            <div className="flex flex-col w-full gap-2 ">
               <input 
                 type="text" 
                 placeholder="Uw volledige naam" 
-                className="border-2 rounded-lg p-2" 
+                className="border-2 rounded-lg p-2 bg-gray-300" 
               />
               <input 
                 type="email" 
                 placeholder="E-mail" 
-                className="border-2 rounded-lg p-2" 
+                className="border-2 rounded-lg p-2 bg-gray-300" 
               />
             </div>
-            <div className="flex flex-col w-full gap-2">
+            <div className="flex flex-col w-full gap-2 ">
               <input 
                 type="text" 
                 placeholder="Telefoonnummer" 
-                className="border-2 rounded-lg p-2" 
+                className="border-2 rounded-lg p-2 bg-gray-300" 
               />
               <input 
                 type="number" 
                 placeholder="Leeftijd" 
-                className="border-2 rounded-lg p-2" 
+                className="border-2 rounded-lg p-2 bg-gray-300" 
               />
             </div>
             <textarea 
               name="" 
               id="" 
               placeholder="Uw bericht" 
-              className="border-2 p-4 rounded-lg" 
+              className="border-2 p-4 rounded-lg bg-gray-300" 
             />
             <button 
               type="button" 

@@ -9,7 +9,7 @@ interface ServiceWorkCompoProps {
 
 function ServiceWorkCompo(props: ServiceWorkCompoProps) {
     return (
-        <div className='border-t-4 border-blue-700 flex flex-col justify-center items-center gap-4 bg-white p-2 rounded-lg'>
+        <div className='border-t-4 border-blue-700 flex flex-col justify-center items-center gap-4 bg-gray-200 p-2 rounded-lg'>
             <div>
                 <props.icon/>
             </div>

@@ -11,7 +11,7 @@ interface ServiceCompoProps {
 
 function ServiceCompo({ icon: Icon , title, description , color}: ServiceCompoProps) {
   return (
-    <div className="rounded-xl bg-white p-6 text-center shadow-xl">
+    <div className="rounded-xl bg-gray-200 p-6 text-center shadow-xl">
     <div
       className={`mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full ${color} shadow-lg shadow-teal-500/40`}>
       <Icon className="h-6 w-6 text-white" />

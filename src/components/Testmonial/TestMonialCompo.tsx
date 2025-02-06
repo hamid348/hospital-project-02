@@ -11,7 +11,7 @@ interface TestMonialCompoProps {
 
 function TestMonialCompo(props: TestMonialCompoProps) {
     return (
-        <div className="flex flex-col gap-4 p-4 bg-white rounded-lg">
+        <div className="flex flex-col gap-4 p-4 rounded-lg">
             <div className="flex gap-4">
                 <Image
                     src={props.person}

@@ -2,3 +2,15 @@
 @tailwind components;
 @tailwind utilities;
 
+:root {
+  --background-color: #EEEEEE; /* This is the Tailwind gray-400 color */
+}
+
+body {
+  background-color: var(--background-color);
+}
+
+
+
+
+

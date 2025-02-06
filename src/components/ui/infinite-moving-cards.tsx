@@ -101,7 +101,7 @@ export const InfiniteMovingCards = ({
            
             key={item.title}
           >
-            <div className="rounded-xl bg-white p-6 text-center shadow-xl">
+            <div className="rounded-xl bg-gray-200 p-6 text-center shadow-xl">
               <div
                 className={`mx-auto flex h-16 w-16 -translate-y-12 transform items-center justify-center rounded-full ${item.color} shadow-lg shadow-teal-500/40`}
               >
