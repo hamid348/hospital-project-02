@@ -19,7 +19,7 @@ function AboutSection() {
             and reliable airport transportation services in Manchester and
             Liverpool, ensuring your journey begins and ends on the right note.
             Whether you are traveling for business or leisure, our premium
-            services are designed to cater to your needs with comfort,
+            services are designed to caters to your needs with comfort,
             efficiency, and luxury.
           </p>
         </div>
