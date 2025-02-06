@@ -12,10 +12,10 @@ function AboutSection() {
             Transportation Services
         </h1>
         <div>
-          <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center text-blue-400">Premium Travel Solutions by OkTaxis</h2>
+          <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center text-blue-400">Premium Travel Solutions by Zorgvervoer</h2>
           <p className="text-lg text-gray-700 mb-6 text-center leading-relaxed">
             Traveling can be an exciting adventure, but getting to and from the
-            airport often presents challenges. At OkTaxis, we provide seamless
+            airport often presents challenges. At Zorgvervoer, we provide seamless
             and reliable airport transportation services in Manchester and
             Liverpool, ensuring your journey begins and ends on the right note.
             Whether you are traveling for business or leisure, our premium
@@ -24,10 +24,10 @@ function AboutSection() {
           </p>
         </div>
         <div>
-          <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center text-blue-400">Premium Travel Solutions by OkTaxis</h2>
+          <h2 className="text-xl md:text-2xl font-semibold mb-4 text-center text-blue-400">Premium Travel Solutions by Zorgvervoer</h2>
           <p className="text-lg text-gray-700 mb-6 text-center leading-relaxed">
             Traveling can be an exciting adventure, but getting to and from the
-            airport often presents challenges. At OkTaxis, we provide seamless
+            airport often presents challenges. At Zorgvervoer, we provide seamless
             and reliable airport transportation services in Manchester and
             Liverpool, ensuring your journey begins and ends on the right note.
             Whether you are traveling for business or leisure, our premium
